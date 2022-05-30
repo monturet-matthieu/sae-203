@@ -10,6 +10,15 @@ module.exports = {
           "850": "#2a00a0"
         }
       },
+      "fontSize": {
+        "base": "1rem",
+        "4xl": "1.75rem"
+      },
+      "fontFamily": {
+        "paytone": "'Paytone One', sans-serif",
+        "montserrat": 'Montserrat, sans-serif',
+        "gothic": "'Gothic A1', sans-serif"
+      },
       "borderRadius": {
         "none": "0",
         "xs": "0.25rem",
