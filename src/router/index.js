@@ -6,6 +6,7 @@ import Festival from '../views/Festival.vue'
 import Mentionslegales from '../views/Mentionslegales.vue'
 import Artiste from '../views/Artiste.vue'
 import Contact from '../views/Contact.vue'
+import Guide from '../views/Guide.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -17,6 +18,7 @@ const router = createRouter({
     { path: '/mentionslegales', name: 'Mentionslegales', component: Mentionslegales },
     { path: '/artiste', name: 'Artiste', component: Artiste },
     { path: '/contact', name: 'Contact', component: Contact },
+    { path: '/guide', name: 'Guide', component: Guide },
   ]
 })
 
