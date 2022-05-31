@@ -30,8 +30,8 @@ module.exports = {
         "full": "9999px"
       },
       screens: {
-        'sm': '375px',
-        'md': '720px',
+        'sm': '320px',
+        'md': '650px',
         'lg': '1024px',
         'xl': '1280px',
         '2xl': '1536px'

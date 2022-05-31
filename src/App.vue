@@ -4,8 +4,8 @@ import Footer from "./components/layout/Footer.vue"
 </script>
 
 <template>
-  <header class="font-paytone p-6 2xl:text-3xl xl:text-4xl lg:text-2xl md:text-lg sm:text-sm">
-    <nav class="lg:space-x-24 md:space-x-16 flex justify-center space-x-6">
+  <header class="font-paytone p-6 2xl:text-3xl xl:text-4xl lg:text-2xl md:text-lg sm:text-xs border-b-2 border-gray-100">
+    <nav class="lg:space-x-24 md:space-x-16 flex justify-center space-x-4">
       <RouterLink class="hover:text-red-600 focus:text-red-600" to="/">Accueil</RouterLink>
       <RouterLink class="hover:text-red-600 focus:text-red-600" to="/programmation">Programmation</RouterLink>
       <RouterLink class="hover:text-red-600 focus:text-red-600" to="/artistes">Artistes</RouterLink>
