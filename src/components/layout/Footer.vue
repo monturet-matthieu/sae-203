@@ -9,7 +9,7 @@
             </div>
         </ul>
     </nav>
-    <RouterLink class="flex justify-around pb-4" to="/mentionslegales">Mentions légales</RouterLink>>
+    <RouterLink class="flex justify-around pb-6" to="/mentionslegales">Mentions légales</RouterLink>
 </template>
 
 <script>
