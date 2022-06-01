@@ -2,7 +2,7 @@
     <h2 class="font-gothic font-bold text-2xl text-center my-12">Programmation</h2>
 
     <p class="text-montserrat text-lg xl:mx-64 lg:mx-32 md:16 sm:mx-8 mt-12 text-center">Voici le planning complet de Blue Jazz !</p>
-    <p class="text-montserrat text-lg xl:mx-64 lg:mx-32 md:16 sm:mx-8 mb-12 text-center">Vous retrouverez les artistes présents à notre festival, la plupart faisant plusieurs apparitions dans la semaine. Ce planning peut être sujet à des changements de dernière minute, pensez à le consulter régulièrement !</p>
+    <p class="text-montserrat text-lg xl:mx-80 lg:mx-32 md:16 sm:mx-8 mb-12 text-center">Vous retrouverez les artistes présents à notre festival, la plupart faisant plusieurs apparitions dans la semaine. Ce planning peut être sujet à des changements de dernière minute, pensez à le consulter régulièrement !</p>
     
     <table class="w-full table-fixed text-center mb-8 border-collapse font-montserrat text-sm font-medium md:text-base lg:text-lg lg:font-semibold">
         <caption class="sr-only">Planning des différents passages d'artistes sur la durée du festival</caption>
