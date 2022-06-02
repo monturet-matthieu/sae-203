@@ -1,7 +1,7 @@
 <template>
     <h2 class="font-gothic font-bold text-2xl text-center mt-12 mb-2">Concert</h2>
 
-    <h3 class="font-gothic font-semibold text-xl text-center mb-4">Ibrahim Maalouf</h3>
+    <h3 class="font-gothic font-semibold text-xl text-center mb-4">Ibrahim Maalouf : Back on Stage</h3>
 
     <div class="flex justify-center mb-8 lg:mt-8">
         <img class="rounded-lg w-72 md:w-96" src="../../public/img/francofolies.webp" alt="Photo d'Ibrahim Maalouf">
