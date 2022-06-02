@@ -1,5 +1,6 @@
 <script setup>
 import Card from "../components/Card.vue";
+import Bouton from "../components/Bouton.vue";
 </script>
 
 <template>
@@ -29,6 +30,9 @@ import Card from "../components/Card.vue";
     </div>
 
     <h3 class="text-2xl font-gothic mx-4 mt-10 border-b-2">Composants</h3>
+    <div class="flex justify-center mt-8">
+        <Bouton>Bouton</Bouton>
+    </div>
     <div class="mt-8">
         <Card />
     </div>
