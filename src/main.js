@@ -3,7 +3,7 @@ import App from './App.vue'
 import router from './router'
 import './index.css'
 
-import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.2/firebase-app.js";
+import { initializeApp } from "https://www.gstatic.com/firebasejs/9.7.0/firebase-app.js";
 
 const firebaseConfig = {
     apiKey: "AIzaSyDD8FfQmeRteCJCVLg5en-M_2ABB1_uogE",
