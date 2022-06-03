@@ -14,7 +14,21 @@ import Creation from "../components/artiste/Creation.vue"
         <RouterLink to="/artiste" v-for="artistes in listeArtistesSynchro" :key="artistes.id"><Card class="md:w-full" :nom="artistes.nom" :image="artistes.image" /></RouterLink>
     </div>
 
-    <Creation class="flex justify-center mb-12" />
+    <Creation class="text-center mb-12" />
+
+    <span title="Modifier une fiche Artiste">
+        <RouterLink class="flex justify-center flex-col text-center mb-12" to="/modif/:id">
+            <label class="font-semibold text-xl mb-4">Modifier une fiche Artiste</label>
+            <PencilIcon class="h-12" />
+        </RouterLink>
+    </span>
+
+    <span title="Supprimer une fiche Artiste">
+        <RouterLink class="flex justify-center flex-col text-center mb-12" to="/suppr/:id">
+            <label class="font-semibold text-xl mb-4">Supprimer une fiche Artiste</label>
+            <TrashIcon class="h-12" />
+        </RouterLink>
+    </span>
 </template>
 
 <script>

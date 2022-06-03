@@ -17,30 +17,30 @@ import Bouton from "../Bouton.vue"
                         </div>
                     </div>
 
-                    <div class="flex flex-col justify-center">
+                    <div class="flex flex-col justify-center space-y-4">
                         <div>
                             <div>
                                 <span>Nom</span>
                             </div>
                             <input placeholder="Nom de l'artiste" v-model="artistes.nom" required>
                         </div>
-                        <br/>
+
                         <div>
                             <div>
                                 <span>Image</span>
                             </div>
                             <div>
-                                <input type="file" ref="file" id="file" @change="previewImage">
+                                <input class="md:ml-48" type="file" ref="file" id="file" @change="previewImage">
                             </div>
                         </div>
-                        <br />
+
                         <div>
                             <div>
                                 <span>Type d'artiste (solo, groupe, orchestre...)</span>
                             </div>
                             <input type="text" placeholder="Type de l'artiste" v-model="artistes.type" required>
                         </div>
-                        <br />
+
                         <div>
                             <div>
                                 <span>Dates des concerts</span>

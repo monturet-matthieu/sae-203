@@ -8,6 +8,8 @@ import Artiste from '../views/Artiste.vue'
 import Contact from '../views/Contact.vue'
 import Guide from '../views/Guide.vue'
 import Concert from '../views/Concert.vue'
+import Modif from '../views/Modif.vue'
+import Suppr from '../views/Suppr.vue'
 import View404 from '../views/404.vue'
 
 const router = createRouter({
@@ -22,6 +24,8 @@ const router = createRouter({
     { path: '/contact', name: 'Contact', component: Contact },
     { path: '/guide', name: 'Guide', component: Guide },
     { path: '/concert', name: 'Concert', component: Concert },
+    { path: '/modif/:id', name: 'Modif', component: Modif },
+    { path: '/suppr/:id', name: 'Suppr', component: Suppr },
     { path: '/:pathMatch(.*)', name: '404View', component: View404 },
   ]
 })
